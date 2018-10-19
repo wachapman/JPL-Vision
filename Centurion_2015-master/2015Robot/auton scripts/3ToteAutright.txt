@@ -1,0 +1,27 @@
+setElevator: 3.3, serial
+openIntake
+navigate: 1.7, 0.0, 0.0, 0.6, 0.4, false, serial
+navigate: 1.7, 2.0, 0.0, 0.6, 0.4, false, serial
+navigate: 0.1, 3.0, 0.0, 0.6, 0.4, false, serial
+navigate: 0.1, 4.0, 0.0, 0.6, 0.4, false, serial
+closeIntake
+setIntake: 1.0, 1.0
+navigate: 0.1, 5.0, 0.0, 0.6, 0.4, false, serial
+setIntake: 0.0, 0.0
+openIntake
+setElevator: 0.3, serial
+setElevator: 3.3, parallel
+navigate: 1.7, 5.0, 0.0, 0.6, 0.4, false, serial
+navigate: 1.7, 7.0, 0.0, 0.6, 0.4, false, serial
+navigate: 0.0, 8.0, 0.0, 0.6, 0.4, false, serial
+navigate: 0.0, 9.0, 0.0, 0.6, 0.4, false, serial
+closeIntake
+setIntake: 1.0, 1.0
+navigate: 0.1, 10.0, 0.0, 0.6, 0.4, false, serial
+setIntake: 0.0, 0.0
+openIntake
+setElevator: 0.3, serial
+setElevator: 3.3, parallel
+navigate: 7.0, 10.0, 0.0, 0.8, 0.4, false, serial
+navigate: 7.0, 7.0 , 0.0, 0.6, 0.4, false, parallel
+setElevator: 0.3, serial

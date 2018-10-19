@@ -1,0 +1,35 @@
+openintake
+
+closeintake
+
+navigate: 0,0,90,1, serial
+
+setintake: -1
+
+wait: 0.5
+
+setintake:0
+
+openintake
+
+setelevator:1.3,parallel
+
+navigate: 0,2,0,0.5, serial
+
+setintake: 1
+
+closeintake
+
+wait: 1
+
+setintake: 0
+
+openintake
+
+setelevator: 0.1, serial
+
+closeintake
+
+setintake: 1
+
+navigate: 5, 2, 225, 1
